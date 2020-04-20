@@ -13,9 +13,9 @@
 			<Label Name="lblLog" Content="PassPhrase" HorizontalAlignment="Left" Margin="39,110,0,0" VerticalAlignment="Top"/>
 			<PasswordBox Name="passPassPhrase" HorizontalAlignment="Left" Height="23" Margin="209,110,0,0" VerticalAlignment="Top" Width="275" PasswordChar="*"/>
 			<Label Name="lblSPServiceAccount" Content="SharePoint Service Account" HorizontalAlignment="Left" Margin="39,175,0,0" VerticalAlignment="Top"/>
-			<TextBox Name="txtSPServiceAccount" HorizontalAlignment="Left" Height="23" Margin="209,179,0,0" TextWrapping="Wrap" Text="DODIIS\svc_ADAMASMSP" VerticalAlignment="Top" Width="275"/>
+			<TextBox Name="txtSPServiceAccount" HorizontalAlignment="Left" Height="23" Margin="209,179,0,0" TextWrapping="Wrap" Text="Contoso\svc_MSP" VerticalAlignment="Top" Width="275"/>
 			<Label Name="lblInstallAccount" Content="Install Account" HorizontalAlignment="Left" Margin="40,144,0,0" VerticalAlignment="Top"/>
-			<TextBox Name="txtInstallAccount" HorizontalAlignment="Left" Height="23" Margin="209,144,0,0" TextWrapping="Wrap" Text="DODIIS\svc_adamasMINS" VerticalAlignment="Top" Width="275"/>
+			<TextBox Name="txtInstallAccount" HorizontalAlignment="Left" Height="23" Margin="209,144,0,0" TextWrapping="Wrap" Text="Contoso\svc_MINS" VerticalAlignment="Top" Width="275"/>
 		</Grid>
 	</ScrollViewer>
 </Window>
