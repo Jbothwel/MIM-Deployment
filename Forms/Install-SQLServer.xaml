@@ -32,11 +32,11 @@
             <Button Name="btnSelectSxSPath" Content="Select SxS Path" HorizontalAlignment="Left" Margin="470,408,0,0" VerticalAlignment="Top" Width="130" TabIndex="14"/>
             <Button Name="btnAddExtra" Content="Add SQL Extra" HorizontalAlignment="Left" Margin="730,85,0,0" VerticalAlignment="Top" Width="86" TabIndex="3"/>
             <Label Name="lblMimAdminGroup" Content="MIM Admin Group" HorizontalAlignment="Left" Margin="40,200,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.132,0.462"/>
-            <TextBox Name="txtMimAdminGroup" HorizontalAlignment="Left" Height="23" Margin="170,204,0,0" TextWrapping="Wrap" Text="FSD-TIER3" VerticalAlignment="Top" Width="275" TabIndex="6"/>
+            <TextBox Name="txtMimAdminGroup" HorizontalAlignment="Left" Height="23" Margin="170,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" TabIndex="6"/>
             <Label Name="lblAdminAccount" Content="Admin Account" HorizontalAlignment="Left" Margin="40,270,0,0" VerticalAlignment="Top"/>
-            <TextBox Name="txtAdminAccount" HorizontalAlignment="Left" Height="23" Margin="170,274,0,0" TextWrapping="Wrap" Text="FSD-TIER3" VerticalAlignment="Top" Width="275" TabIndex="8"/>
+            <TextBox Name="txtAdminAccount" HorizontalAlignment="Left" Height="23" Margin="170,274,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="275" TabIndex="8"/>
             <Label Name="lblServiceAccount" Content="Service Account" HorizontalAlignment="Left" Margin="40,301,0,0" VerticalAlignment="Top"/>
-            <TextBox Name="txtServiceAccount" HorizontalAlignment="Left" Height="23" Margin="170,305,0,0" TextWrapping="Wrap" Text="svc-iifp-galsync" VerticalAlignment="Top" Width="275" TabIndex="9"/>
+            <TextBox Name="txtServiceAccount" HorizontalAlignment="Left" Height="23" Margin="170,305,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" TabIndex="9"/>
             <Label Name="lblSetviceAccountPassword" Content="Service Acct Password" HorizontalAlignment="Left" Margin="40,337,0,0" VerticalAlignment="Top"/>
             <PasswordBox Name="txtServiceAccountPassword" HorizontalAlignment="Left" Margin="170,340,0,0" VerticalAlignment="Top" Width="275" Height="23" TabIndex="10"/>
             <Label Name ="lblSQLInstallDir" Content="Install Directory" HorizontalAlignment="Left" Margin="40,368,0,0" VerticalAlignment="Top"/>
