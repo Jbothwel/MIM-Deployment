@@ -1,0 +1,16 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Configure SQL Always On" Height="250" Width="664">
+    <Grid Margin="0,-18,0,9">
+        <Label Name="lblNodes" Content="Nodes" HorizontalAlignment="Left" Margin="40,35,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+        <TextBox Name="txtNodes" HorizontalAlignment="Left" Height="42" Margin="170,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" AcceptsReturn="True" VerticalScrollBarVisibility="Visible"/>
+        <Label Name="lblEndPointPort" Content="Endpoint Port" HorizontalAlignment="Left" Margin="40,95,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtEndPointPort" HorizontalAlignment="Left" Height="23" Margin="170,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" Text="5022"/>
+        <Label Name="lblProcessing" Content="Processing..." HorizontalAlignment="Left" Margin="510,77,0,0" VerticalAlignment="Top" Width="100" Foreground="#FF11BD50" Visibility="Hidden"/>
+        <Button Name="btnConfigure" Content="Configure" HorizontalAlignment="Left" Margin="255,200,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="35,200,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="465,200,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Name ="lblEndPointName" Content="Endpoint Name" HorizontalAlignment="Left" Margin="35,135,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtEndPointName" HorizontalAlignment="Left" Height="23" Margin="170,139,0,0" TextWrapping="Wrap" Text="AlwaysOn_Endpoint" VerticalAlignment="Top" Width="275"/>
+    </Grid>
+</Window>
