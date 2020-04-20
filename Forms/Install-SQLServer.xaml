@@ -34,7 +34,7 @@
             <Label Name="lblMimAdminGroup" Content="MIM Admin Group" HorizontalAlignment="Left" Margin="40,200,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.132,0.462"/>
             <TextBox Name="txtMimAdminGroup" HorizontalAlignment="Left" Height="23" Margin="170,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" TabIndex="6"/>
             <Label Name="lblAdminAccount" Content="Admin Account" HorizontalAlignment="Left" Margin="40,270,0,0" VerticalAlignment="Top"/>
-            <TextBox Name="txtAdminAccount" HorizontalAlignment="Left" Height="23" Margin="170,274,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="275" TabIndex="8"/>
+            <TextBox Name="txtAdminAccount" HorizontalAlignment="Left" Height="23" Margin="170,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" TabIndex="8"/>
             <Label Name="lblServiceAccount" Content="Service Account" HorizontalAlignment="Left" Margin="40,301,0,0" VerticalAlignment="Top"/>
             <TextBox Name="txtServiceAccount" HorizontalAlignment="Left" Height="23" Margin="170,305,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" TabIndex="9"/>
             <Label Name="lblSetviceAccountPassword" Content="Service Acct Password" HorizontalAlignment="Left" Margin="40,337,0,0" VerticalAlignment="Top"/>
