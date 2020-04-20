@@ -4,25 +4,25 @@
 	<ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" Width="842">
 		<Grid Width="840" Height="471">
 			<Label Name="lblUrl" Content="Portal Url" HorizontalAlignment="Left" Margin="39,27,0,0" VerticalAlignment="Top"/>
-			<TextBox Name="txtUrl" HorizontalAlignment="Left" Height="23" Margin="224,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" Text="https://ADAMAS.dodiis.ic.gov" TabIndex="4"/>
+			<TextBox Name="txtUrl" HorizontalAlignment="Left" Height="23" Margin="224,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" Text="https://Portal.Contoso.com" TabIndex="4"/>
 			<Label Name="lblDBAlias" Content="Database Server(alias)" HorizontalAlignment="Left" Margin="39,66,0,0" VerticalAlignment="Top" TabIndex="5"/>
 			<TextBox Name="txtDBAlias" HorizontalAlignment="Left" Height="23" Margin="224,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" Text="MIMDB" TabIndex="5"/>
 			<Button Name="btnConfigure" Content="Configure" HorizontalAlignment="Left" Margin="264,439,0,0" VerticalAlignment="Top" Width="75" TabIndex="20"/>
 			<Button Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="44,439,0,0" VerticalAlignment="Top" Width="75" TabIndex="19"/>
 			<Button Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="489,439,0,0" VerticalAlignment="Top" Width="75" TabIndex="21"/>
 			<Label Name="lblServiceAccountEmail" Content="Service Account Email" HorizontalAlignment="Left" Margin="39,110,0,0" VerticalAlignment="Top"/>
-			<TextBox Name="txtServiceAccountEmail" HorizontalAlignment="Left" Height="23" Margin="224,110,0,0" VerticalAlignment="Top" Width="275" Text="DIMES.ServiceAccount@dodiis.ic.gov"/>
+			<TextBox Name="txtServiceAccountEmail" HorizontalAlignment="Left" Height="23" Margin="224,110,0,0" VerticalAlignment="Top" Width="275" Text="Contoso.ServiceAccount@Contoso.com"/>
 			<Label Name="lblSyncServer" Content="Synchronization Server" HorizontalAlignment="Left" Margin="39,218,0,0" VerticalAlignment="Top"/>
-			<TextBox Name="txtSyncServer" HorizontalAlignment="Left" Height="23" Margin="224,222,0,0" TextWrapping="Wrap" Text="NEDIACAPP0055J" VerticalAlignment="Top" Width="275"/>
+			<TextBox Name="txtSyncServer" HorizontalAlignment="Left" Height="23" Margin="224,222,0,0" TextWrapping="Wrap" Text="Sync01" VerticalAlignment="Top" Width="275"/>
 			<Label Name="lblSyncServiceAccount" Content="Synchronization Service Account" HorizontalAlignment="Left" Margin="40,187,0,0" VerticalAlignment="Top"/>
-			<TextBox Name="txtSyncServiceAccount" HorizontalAlignment="Left" Height="23" Margin="224,187,0,0" TextWrapping="Wrap" Text="DODIIS\svc_fimma" VerticalAlignment="Top" Width="275"/>
+			<TextBox Name="txtSyncServiceAccount" HorizontalAlignment="Left" Height="23" Margin="224,187,0,0" TextWrapping="Wrap" Text="Contoso\svc_Sync" VerticalAlignment="Top" Width="275"/>
 			<Label Name="lblEmailServer" Content="Email Server" HorizontalAlignment="Left" Margin="39,148,0,0" VerticalAlignment="Top"/>
-			<TextBox Name="txtEmailServer" HorizontalAlignment="Left" Height="23" Margin="224,148,0,0" TextWrapping="Wrap" Text="https://owa.es.dodiis.ic.gov/ews/exchange.asmx" VerticalAlignment="Top" Width="275"/>
+			<TextBox Name="txtEmailServer" HorizontalAlignment="Left" Height="23" Margin="224,148,0,0" TextWrapping="Wrap" Text="https://owa.Contoso/ews/exchange.asmx" VerticalAlignment="Top" Width="275"/>
 			<RadioButton Name="rbNo" Content="No" HorizontalAlignment="Left" Margin="226,404,0,0" VerticalAlignment="Top" IsChecked="True"/>
 			<RadioButton Name="rbYes" Content="Yes" HorizontalAlignment="Left" Margin="307,404,0,0" VerticalAlignment="Top"/>
 			<Label Name="lblExistingDB" Content="Existing Database ?" HorizontalAlignment="Left" Margin="44,397,0,0" VerticalAlignment="Top"/>
 			<Label Name="lblSSPRRegistrationUrl" Content="SSPR Regisration Url" HorizontalAlignment="Left" Margin="39,255,0,0" VerticalAlignment="Top"/>
-			<TextBox Name="txtSSPRRegistrationUrl" HorizontalAlignment="Left" Height="23" Margin="224,257,0,0" TextWrapping="Wrap" Text="https://adamaspasswordregistration.dodiis.ic.gov" VerticalAlignment="Top" Width="275"/>
+			<TextBox Name="txtSSPRRegistrationUrl" HorizontalAlignment="Left" Height="23" Margin="224,257,0,0" TextWrapping="Wrap" Text="https://contosopasswordregistration.com" VerticalAlignment="Top" Width="275"/>
 			<Label Name="lblLogFile" Content="Log File" HorizontalAlignment="Left" Margin="44,289,0,0" VerticalAlignment="Top"/>
 			<TextBox Name="txtLogFile" HorizontalAlignment="Left" Height="23" Margin="226,289,0,0" TextWrapping="Wrap" Text="C:\MIM\PortalAndService.txt" VerticalAlignment="Top" Width="273"/>
 			<Label Name="lblMSI" Content="MIM Service MSI" HorizontalAlignment="Left" Margin="44,320,0,0" VerticalAlignment="Top"/>
